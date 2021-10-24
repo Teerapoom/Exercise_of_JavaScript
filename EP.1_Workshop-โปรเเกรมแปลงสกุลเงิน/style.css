@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+}
+body{
+    background-color: #FFFFCC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    margin: 0px;
+    padding: 20px;
+}
+.btn{
+    background-color: #99FF33;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 12px; /* (1. 4ตัว top,right_ขวา,bottom,left_ซ้าย ),(2. 3ตัว top,right_ขวา_left_ซ้าย,bottom ),(3. 2ตัว top_bottom,right_ขวา_left_ซ้าย),,(4. 1ตัว ทุกอย่างค่าเดียวกัน)   */
+    margin-right: 135px;
+}
+
+.money_1{
+    width: 300px;
+}
+.currency{
+    padding: 40px 0px; 
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+}
+.currency select{   /*ตัวเลือกด้านใน */
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #000000;
+    font-size: 16px;
+    background: transparent;
+    appearance: none;
+}
+.currency input{
+    border: 2px;
+    /*background: transparent;*/
+    font-size: 35px;
+    text-align: right;
+}
+.swap-container{
+    display: flex;
+    align-items: center;
+}
+.rate{
+    font-size: 20px;
+    padding: 0px 10px;
+}
